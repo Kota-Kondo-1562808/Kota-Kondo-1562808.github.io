@@ -1,0 +1,19 @@
+
+#headder {
+  background-color: blue;
+  text-align: center;
+}
+div p {
+  color: red;
+  font-size: 20px
+}
+
+#attention {
+  color: red;
+  text-align: center;
+  font-size: 24px;
+}
+
+span {
+  font-weight: bold;
+}
