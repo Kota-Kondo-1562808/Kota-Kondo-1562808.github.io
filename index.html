@@ -14,23 +14,33 @@
     <p>
       グラフの画像を貼り付けて下さい（Ctrl + vで貼り付け）
       <br>※なるべく大きな画像が良いです。
-      <br>※グラフの軸のギリギリをコピーして下さい。
     </p>
   </div>
   
-  <p id="attention">※※青枠内での左クリックは必要でない場合しないで下さい※※ <br>必要外で万が一クリックした場合はwebページをリロードしやり直して下さい。</p>
-  <p>①グラフ画像を<span>webページ上</span>に貼り付けて下さい。</p>
+  <p id="attention">手順を間違えた場合はwebページをリロードしやり直して下さい。</p>
+  <p>①グラフ画像を<span>ページ上</span>に貼り付けて下さい。</p>
   <p>②グラフのX軸、Y軸の最大値を入力して下さい</p>
   <label>X-Axis Max Value:</label>
   <input type="number" id="inputX" placeholder="ここにX軸の最大値を入力">
-  <br>
+  <br><br>
   <label>Y-Axis Max Value:</label>
   <input type="number" id="inputY" placeholder="ここにY軸の最大値を入力">
   <p>③グラフの原点、X軸終点、Y軸終点の順にクリックして下さい</p>
   <p>④グラフ波形をクリックして座標を取得して下さい</p>
   
-  
-  <div id="getCoordinate"></div>
+  <div id="div-container">
+    <textarea id="click-coordinatesX" cols="30" rows="10">X座標
+
+</textarea>
+    <textarea id="click-coordinatesY" cols="30" rows="10">X座標
+
+</textarea>
+  </div>
+
+
+  <p>⑤X軸とY軸をそれぞれコピーしてエクセルに転記してグラフを作成して下さい。</p>
+  <button id="get-xcoord">X座標をコピーする</button>
+  <button id="get-ycoord">Y座標をコピーする</button>
 
   <script src="Presentation.js"></script>
 </body>
