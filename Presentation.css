@@ -1,7 +1,6 @@
 
 #headder {
   background-color: blue;
-  text-align: center;
 }
 div p {
   color: red;
@@ -10,10 +9,50 @@ div p {
 
 #attention {
   color: red;
-  text-align: center;
   font-size: 24px;
 }
 
 span {
   font-weight: bold;
+}
+
+label {
+  font-size: 24px;
+}
+
+input {
+  font-size: 24px;
+}
+
+
+#div-container {
+  display: flex;
+}
+
+textarea {
+  border: none;
+  font-size: 20px;
+}
+
+#click-coordinatesX {
+  width: 200px;
+  color: red;
+  margin-left: 50px;
+}
+
+#click-coordinatesY {
+  width: 200px;
+  color: blue;
+}
+
+button {
+  cursor: pointer;
+}
+
+#get-xcoord {
+  margin-left: 20px;
+}
+
+#get-ycoord {
+  margin-left: 60px;
 }
