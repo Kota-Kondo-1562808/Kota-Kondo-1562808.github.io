@@ -62,7 +62,7 @@ container.addEventListener("click", function(event) {
   
     // グラフをクリックした座標を補正した値に変換
     const xValue = (xPosition - origin.x) * xScale;
-    const yValue = (yCoord.y - clickY) * yScale;
+    const yValue = (yPosition - origin.y) * yScale;
   
     // 座標を表示
     const outPutCoordinatesX = document.getElementById('click-coordinatesX');
